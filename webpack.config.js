@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/index.js',
     //出力先
     output: {
-        path: path.resolve(__dirname, './dest'),
+        path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js'
     },
     module: {
