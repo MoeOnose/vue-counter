@@ -13,8 +13,8 @@ module.exports = {
     module: {
         rules: [
           {
-            test: /\.vue$/, // ファイルが.vueで終われば...
-            loader: 'vue-loader' // vue-loaderを使う
+            test: /\.vue$/, 
+            loader: 'vue-loader'
           },
           {
             test: /\.js$/,
@@ -22,7 +22,7 @@ module.exports = {
           },
           {
             test: /\.css$/,
-            use: ['vue-style-loader', 'css-loader'] // css-loader -> vue-style-loaderの順で通していく
+            use: ['vue-style-loader', 'css-loader'] 
           },
         ]
       },

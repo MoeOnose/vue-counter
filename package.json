@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --hot",
     "build": "webpack -p"
   },
-  "author": "",
+  "author": "onomoe",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.5",

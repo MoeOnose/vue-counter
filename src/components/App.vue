@@ -1,6 +1,8 @@
 <template>
+<!-- このファイルににindex.htmlに使用するコンポーネントをまとめてる(scriptでタグにしてtemplateで使用。styleで整える)
+ -->
   <div>
-    <!-- <p>Hello, World!</p> -->
+    <p>Hello, World!</p>
     <counter/>
   </div>
 </template>

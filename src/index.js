@@ -1,5 +1,3 @@
-console.log('Hello, World!')
-
 import Vue from 'vue'
 import App from './components/App' // 作ったやつ
 
